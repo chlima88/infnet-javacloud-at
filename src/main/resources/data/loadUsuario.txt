@@ -1,0 +1,5 @@
+MasterAdmin;master@carservices;123;true;Ele Lan Mec;A;Global;https://cj-lab.s3.amazonaws.com/1679879537928_foto2-3x4.jpg
+Admin;admin@carservices;123;false;Ele Lan Mec;A;CarServices;https://cj-lab.s3.us-east-1.amazonaws.com/1679436334025_ThisPerson1.PNG
+Elberth;e@carservices;123;false;Ele;D;CarServices;https://cj-lab.s3.us-east-1.amazonaws.com/1679436334025_ThisPerson1.PNG
+Java Web;j@carservices;123;false;Lan;P;Oracle;https://dev.java/assets/images/java-logo-vert-blk.png
+Spring;s@carservices;123;false;Mec;P;Infnet;https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/spring-boot-1_5zDxm9B.jpg

@@ -1,0 +1,3 @@
+Recuperacao de Paralama;L01;300;true;G;3
+Desamassar porta;L03;500;false;M;5
+Desamassar parachoque;L02;200;false;P;2

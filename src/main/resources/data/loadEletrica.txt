@@ -1,0 +1,3 @@
+Revisao Eletrica 3;E03;300;false;arranque;4
+Revisao Eletrica 1;E01;100;false;luzes;3
+Revisao Eletrica 2;E02;200;false;ignicao;3
