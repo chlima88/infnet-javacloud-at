@@ -21,7 +21,10 @@ import io.swagger.v3.oas.annotations.servers.Server;
 					+ "<li>do curso <strong>Engenharia de Software</strong></li>"
 					+ "<li>no <strong>Infnet</strong></li></ul>",
 				version = "1.0"),
-				servers = @Server(url = "http://at.javacloud.chlima.com", description = "Endereço do Projeto")
+				servers = {
+						@Server(url = "http://at.javacloud.chlima.com", description = "Endereço do Projeto (Prod)"), 
+						@Server(url = "http://localhost:5000", description = "Endereço do Projeto (Dev)")
+						}
 		
 		)				
 public class AtapiApplication {

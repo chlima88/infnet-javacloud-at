@@ -78,7 +78,9 @@ public class ServicoController<T extends Servico> {
 			summary = "Listar todos os servicos",
 			description = "Retorna uma lista com todos objetos do tipo Servico")
 	@ApiResponse(responseCode = "200", description = "Operação realizada com sucesso")
-	public Collection<T> listarPorTipo(@RequestParam(required = false) String tipo ) {
+	public Collection<T> listarPorTipo(
+			@Parameter(description="Tipo de servico buscado (Eletrica, Mecanica ou Lanternagem)") 
+			@RequestParam(required = false) String tipo ) {
 		
 		try {
 			
