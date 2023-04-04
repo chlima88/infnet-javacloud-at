@@ -12,6 +12,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import br.edu.infnet.atapi.dtos.UploadDto;
 import br.edu.infnet.atapi.services.StorageService;
+import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
@@ -23,6 +24,9 @@ public class UploadController {
 	
 	@PostMapping(path = "/api/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
 	@ResponseStatus(HttpStatus.CREATED)
+	@Operation(
+			summary = "Fazer upload", 
+			description = "Realiza upload da imagem e retorna a url de acesso")
 	public UploadDto incluirImagem(
 			@RequestParam("imagem") MultipartFile imagem
 		) throws Exception {
